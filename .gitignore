@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+.ipynb_checkpoints/*
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Cache and temporary files
+.cache/
+tmp/
+temp/
+*.tmp
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+test-results/
+
+# Package files
+package-lock.json
+yarn.lock
+composer.lock
+
+# Local configuration
+config.local.js
+settings.local.php
