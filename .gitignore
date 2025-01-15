@@ -3,7 +3,7 @@ node_modules/
 vendor/
 
 # Build outputs
-.ipynb_checkpoints/
+.ipynb_checkpoints
 dist/
 build/
 out/
