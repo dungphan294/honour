@@ -1,37 +1,71 @@
-# Hydrogen Analysis Project
+# European Hydrogen Projects Analysis
 
 ## Overview
-This project focuses on the analysis of hydrogen-related data and processes. It provides tools and methodologies for studying hydrogen properties, applications, and related phenomena.
+This project analyzes hydrogen-related projects across Europe, focusing on project capacities, investments, and technological implementations. The analysis includes data processing, cleaning, and visualization of hydrogen production and infrastructure projects.
 
-## Directory Structure
+## Project Structure
 ```
 honour/
 ├── README.md
+├── graph.ipynb              # Main analysis notebook
+├── country_list.csv         # Country reference data
+├── df_cleaned.csv          # Intermediate cleaned dataset
+├── europe_data.csv         # Final processed European dataset
 ```
 
-## Getting Started
-1. Clone this repository
-2. Navigate to the project directory
-3. Follow installation instructions for required dependencies
+## Key Features
+- Data cleaning and preprocessing of hydrogen project data
+- European country filtering and validation
+- Technology categorization
+- Temporal analysis (1992-2025)
+- Investment and capacity analysis
+- Regional distribution analysis
 
-## Features
-- Hydrogen data analysis tools
-- Visualization capabilities
-- Research methodologies
+## Data Processing Pipeline
+1. Initial data loading and validation
+2. Country code standardization
+3. European project filtering
+4. Technology classification
+5. Temporal range filtering (≤ 2025)
+6. Missing value handling
+7. Chronological ordering
+
+## Dataset Features
+- Project Name
+- Country Information (ISO codes)
+- Capacity (kt H2/y)
+- Investment Costs (MUSD)
+- Implementation Dates
+- Technology Types
+- Regional Classifications
 
 ## Requirements
-- List of dependencies will be updated as project develops
+- Python 3.x
+- pandas
+- plotly
+- numpy
 
 ## Usage
-Detailed usage instructions will be provided as the project evolves.
+1. Clone the repository
+2. Install required dependencies:
+```bash
+pip install pandas plotly numpy
+```
+3. Run the Jupyter notebook:
+```bash
+jupyter notebook graph.ipynb
+```
+
+## Data Sources
+- Primary project data
+- Country classification data
+- European regional mappings
 
 ## Contributing
-Contributions are welcome. Please read the contributing guidelines before making a pull request.
+Contributions are welcome. Please ensure your code follows the existing data processing pipeline structure.
 
 ## License
-[License details to be added]
+[MIT License or other appropriate license]
 
 ## Contact
-[Contact information to be added]
-
-Note: This is an initial README structure and will be updated as more files and features are added to the project.# honour
+[Your contact information]
